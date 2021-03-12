@@ -1,0 +1,16 @@
+{
+  "name": "vueshop",
+  "version": "1.0.0",
+  "description": "this is demoapp shop",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mock:server" : "json-server --watch db.json --routes mock-routes.json --port 3004"
+  },
+  "author": "",
+  "license": "ISC"
+}
